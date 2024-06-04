@@ -12,6 +12,7 @@ export default function Home() {
       <div className="container">
         <NavigationCardsContainer />
       </div>
+      <div>Footer will go here</div>
     </main>
   );
 }
