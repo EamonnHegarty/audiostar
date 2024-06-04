@@ -20,7 +20,7 @@ type NavigationCardProps = {
 const NavigationCard = (props: NavigationCardProps) => {
   const { image, title, href } = props;
   return (
-    <Card className="p-6 flex flex-col jusitfy-center items-center bg-backgroundGray">
+    <Card className="p-4 flex flex-col jusitfy-center items-center bg-backgroundGray">
       <CardHeader>
         <Image alt="Headphones" height={200} src={image} />
       </CardHeader>
