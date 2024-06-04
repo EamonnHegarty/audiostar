@@ -10,6 +10,7 @@ const NavigationCardsContainer = () => {
           image={content.image}
           title={content.title}
           key={content.id}
+          href={content.href}
         />
       ))}
     </div>

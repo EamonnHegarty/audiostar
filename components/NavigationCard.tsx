@@ -9,14 +9,16 @@ import {
 } from "./ui/card";
 import { StaticImageData } from "next/image";
 import { ChevronRight } from "lucide-react";
+import Link from "next/link";
 
 type NavigationCardProps = {
   image: StaticImageData;
   title: string;
+  href: string;
 };
 
 const NavigationCard = (props: NavigationCardProps) => {
-  const { image, title } = props;
+  const { image, title, href } = props;
   return (
     <Card className="p-6 flex flex-col jusitfy-center items-center bg-backgroundGray">
       <CardHeader>
@@ -27,7 +29,9 @@ const NavigationCard = (props: NavigationCardProps) => {
       </CardContent>
       <CardFooter>
         <p>SHOP</p>
-        <ChevronRight className="navIcon" />
+        <Link href={href}>
+          <ChevronRight className="text-orange cursor-pointer hover:bg-white rounded-full ml-1 transition-all" />
+        </Link>
       </CardFooter>
     </Card>
   );

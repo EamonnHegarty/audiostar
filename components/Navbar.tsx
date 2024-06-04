@@ -36,7 +36,7 @@ const Navbar = () => {
         </div>
         <div className="hidden lg:flex items-center">
           <span>
-            <ShoppingCart className="icon" />
+            <ShoppingCart className="text-white cursor-pointer hover:text-orange" />
           </span>
         </div>
       </div>
