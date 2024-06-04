@@ -28,9 +28,11 @@ const NavigationCard = (props: NavigationCardProps) => {
         <CardTitle>{title}</CardTitle>
       </CardContent>
       <CardFooter>
-        <p>SHOP</p>
         <Link href={href}>
-          <ChevronRight className="text-orange cursor-pointer hover:bg-white rounded-full ml-1 transition-all" />
+          <div className="flex cols-2 items-center justify-center align-center hover:text-orange">
+            <p>SHOP</p>
+            <ChevronRight className="text-orange" />
+          </div>
         </Link>
       </CardFooter>
     </Card>
