@@ -7,7 +7,7 @@ const HomeHeroSection = () => {
   return (
     <>
       <div
-        className="relative w-full h-screen text-white bg-cover bg-center flex items-center"
+        className="w-full h-screen text-white bg-cover bg-center flex items-center"
         style={{ backgroundImage: `url(${HeadphonesImageDesktop.src})` }}
       >
         <div className="container grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
