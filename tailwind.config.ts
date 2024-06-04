@@ -55,6 +55,8 @@ const config = {
         orange: "#D87D4A",
         lightOrange: "#fbaf85",
         lightDark: "#191919",
+        backgroundGray: "#F1F1F1",
+        hoverOrange: "d87d4a",
       },
       borderRadius: {
         lg: "var(--radius)",

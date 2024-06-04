@@ -75,6 +75,11 @@
   cursor: pointer;
 }
 
+.navIcon {
+  color: #d87d4a;
+  cursor: pointer;
+}
+
 @layer base {
   * {
     @apply border-border;
