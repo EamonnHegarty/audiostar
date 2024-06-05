@@ -9,7 +9,7 @@ import { ShoppingCart } from "lucide-react";
 const Navbar = () => {
   return (
     <nav className="bg-lightDark">
-      <div className=" container mx-auto flex justify-between items-center p-6  text-white">
+      <div className="container mx-auto flex items-center justify-between p-6 text-white">
         <div className="flex items-center">
           <Link href="/">
             <span className="mx-2 text-2xl font-bold hover:text-orange">
@@ -17,13 +17,13 @@ const Navbar = () => {
             </span>
           </Link>
         </div>
-        <div className="hidden lg:flex flex-1 justify-center">
+        <div className="hidden flex-1 justify-center lg:flex">
           {links.map((link) => (
             <Button
               asChild
               key={link.id}
               variant="link"
-              className="text-white hover:text-orange "
+              className="text-white hover:text-orange"
             >
               <Link href={link.href}>
                 <span>{link.text}</span>
@@ -34,9 +34,9 @@ const Navbar = () => {
         <div className="flex items-center">
           <DropdownLinks />
         </div>
-        <div className="hidden lg:flex items-center">
+        <div className="hidden items-center lg:flex">
           <span>
-            <ShoppingCart className="text-white cursor-pointer hover:text-orange" />
+            <ShoppingCart className="cursor-pointer text-white hover:text-orange" />
           </span>
         </div>
       </div>

@@ -5,18 +5,18 @@ import { Button } from "./ui/button";
 const HomeSpeakerShowCase = () => {
   return (
     <div
-      className="my-20 text-white bg-cover bg-center flex items-center rounded-lg h-80 "
+      className="my-20 flex items-center rounded-lg bg-cover bg-center p-6 text-white md:p-16 lg:p-28"
       style={{ backgroundImage: `url(${HomeImageSpeaker.src})` }}
     >
-      <div className="container grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
+      <div className="container grid gap-4 md:grid-cols-2 md:items-center md:gap-8 xl:gap-20">
         <div>
-          <h1 className="text-black  font-extrabold text-6xl mt-7">
+          <h1 className="mt-7 text-4xl font-extrabold text-black md:text-6xl">
             ZX7 SPEAKER
           </h1>
-          <div className="mt-7 grid gap-3 w-full sm:inline-flex">
+          <div className="mt-7 grid w-full gap-3 sm:inline-flex">
             <Button
               size={"lg"}
-              className="bg-black  border-black text-white hover:text-black hover:bg-white"
+              className="border-black bg-black text-white hover:bg-white hover:text-black"
             >
               SEE PRODUCT
             </Button>

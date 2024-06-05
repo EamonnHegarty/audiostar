@@ -14,7 +14,7 @@ const DropdownLinks = () => {
     <DropdownMenu>
       <DropdownMenuTrigger asChild className="lg:hidden">
         <Button size="icon" className="bg-inherit">
-          <AlignLeft className="bg-black " />
+          <AlignLeft className="bg-black" />
           <span className="sr-only">Toggle links</span>
         </Button>
       </DropdownMenuTrigger>
@@ -26,7 +26,7 @@ const DropdownLinks = () => {
         {links.map((link) => {
           return (
             <DropdownMenuItem key={link.href} className="hover:bg-orange">
-              <Link href={link.href} className="flex items-center gap-x-2  ">
+              <Link href={link.href} className="flex items-center gap-x-2">
                 <span className="capitalize">{link.text}</span>
               </Link>
             </DropdownMenuItem>

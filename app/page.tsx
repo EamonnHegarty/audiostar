@@ -1,4 +1,5 @@
 // app/page.tsx
+import HomeEarphonesShowCase from "@/components/HomeEarphonesShowCase";
 import HomeHeroSection from "@/components/HomeHeroSection";
 import HomeShowCase from "@/components/HomeShowCase";
 import HomeSpeakerShowCase from "@/components/HomeSpeakerShowCase";
@@ -15,6 +16,7 @@ export default function Home() {
         <NavigationCardsContainer />
         <HomeShowCase />
         <HomeSpeakerShowCase />
+        <HomeEarphonesShowCase />
       </div>
     </main>
   );

@@ -6,25 +6,25 @@ const HomeHeroSection = () => {
   return (
     <>
       <div
-        className="w-full h-screen text-white bg-cover bg-center flex items-center"
+        className="flex h-screen w-full items-center bg-cover bg-center text-white"
         style={{ backgroundImage: `url(${HeadphonesImageDesktop.src})` }}
       >
-        <div className="container grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
+        <div className="container grid gap-4 md:grid-cols-2 md:items-center md:gap-8 xl:gap-20">
           <div>
-            <h2 className="text-gray-400 uppercase tracking-wide text-sm">
+            <h2 className="text-sm uppercase tracking-wide text-gray-400">
               New Product
             </h2>
-            <h1 className="text-white text-5xl font-extrabold lg:text-6xl mt-7">
+            <h1 className="mt-7 text-5xl font-extrabold text-white lg:text-6xl">
               XX99 Mark II Headphones
             </h1>
             <p className="mt-7 text-lg text-gray-300">
               Experience natural, lifelike audio and exceptional build quality
               made for the passionate music enthusiast.
             </p>
-            <div className="mt-7 grid gap-3 w-full sm:inline-flex">
+            <div className="mt-7 grid w-full gap-3 sm:inline-flex">
               <Button
                 size={"lg"}
-                className="bg-orange text-white hover:text-white hover:bg-lightOrange"
+                className="bg-orange text-white hover:bg-lightOrange hover:text-white"
               >
                 Get started
               </Button>
