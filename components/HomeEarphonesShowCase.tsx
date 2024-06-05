@@ -8,8 +8,6 @@ const HomeEarphonesShowCase = () => {
     <div className="my-20 flex w-full items-center bg-cover bg-center text-white">
       <div className="grid w-full gap-4 md:grid-cols-2">
         <div className="h-full w-full overflow-hidden rounded-lg">
-          {" "}
-          {/* Wrapper with rounded corners and overflow hidden */}
           <Image
             src={HomeEarphones}
             alt="headphones"
