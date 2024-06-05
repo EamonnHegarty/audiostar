@@ -1,6 +1,7 @@
 // app/page.tsx
 import HomeHeroSection from "@/components/HomeHeroSection";
-import HomeShowCaseHero from "@/components/HomeShowCaseHero";
+import HomeShowCase from "@/components/HomeShowCase";
+import HomeSpeakerShowCase from "@/components/HomeSpeakerShowCase";
 import NavigationCardsContainer from "@/components/NavigationCardsContainer";
 import React from "react";
 
@@ -12,9 +13,9 @@ export default function Home() {
       </div>
       <div className="container">
         <NavigationCardsContainer />
-        <HomeShowCaseHero />
+        <HomeShowCase />
+        <HomeSpeakerShowCase />
       </div>
-      <div>Footer will go here</div>
     </main>
   );
 }

@@ -1,7 +1,6 @@
 import React from "react";
 import { Button } from "./ui/button";
 import HeadphonesImageDesktop from "../Assets/image-hero.jpg";
-import Image from "next/image";
 
 const HomeHeroSection = () => {
   return (
