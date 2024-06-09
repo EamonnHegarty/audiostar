@@ -20,7 +20,7 @@ type NavigationCardProps = {
 const NavigationCard = (props: NavigationCardProps) => {
   const { image, title, href } = props;
   return (
-    <Card className="p-4 flex flex-col jusitfy-center items-center bg-backgroundGray">
+    <Card className="flex flex-col items-center p-4 jusitfy-center bg-backgroundGray">
       <CardHeader>
         <Image alt="Headphones" height={200} src={image} />
       </CardHeader>
@@ -29,7 +29,7 @@ const NavigationCard = (props: NavigationCardProps) => {
       </CardContent>
       <CardFooter>
         <Link href={href}>
-          <div className="flex cols-2 items-center justify-center align-center hover:text-orange">
+          <div className="flex items-center justify-center cols-2 align-center hover:text-orange">
             <p>SHOP</p>
             <ChevronRight className="text-orange" />
           </div>
