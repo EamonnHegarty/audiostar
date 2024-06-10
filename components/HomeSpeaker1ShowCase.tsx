@@ -3,13 +3,13 @@ import React from "react";
 import { Button } from "./ui/button";
 import Speaker from "../Assets/image-speaker-zx9.png";
 
-const HomeShowCaseHero = () => {
+const HomeSpeaker1ShowCase = () => {
   return (
     <div className="container grid gap-4 px-10 py-16 rounded-lg bg-orange md:grid-cols-2 md:items-center md:gap-8 xl:gap-20">
       <div className="flex items-center justify-center">
         <Image src={Speaker} height={300} width={300} alt="Image Description" />
       </div>
-      <div className="flex flex-col items-center justify-center md:items-start md:justify-start">
+      <div className="flex flex-col items-center justify-center text-center md:text-left md:items-start md:justify-start">
         <h1 className="text-5xl font-extrabold text-white mt-7 lg:text-6xl">
           ZX9
         </h1>
@@ -33,4 +33,4 @@ const HomeShowCaseHero = () => {
   );
 };
 
-export default HomeShowCaseHero;
+export default HomeSpeaker1ShowCase;

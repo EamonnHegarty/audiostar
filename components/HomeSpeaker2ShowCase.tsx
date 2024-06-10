@@ -2,7 +2,7 @@ import React from "react";
 import HomeImageSpeaker from "../Assets/image-speaker-zx7.jpg";
 import { Button } from "./ui/button";
 
-const HomeSpeakerShowCase = () => {
+const HomeSpeaker2ShowCase = () => {
   return (
     <div
       className="flex items-center p-6 my-20 text-white bg-center bg-cover rounded-lg md:p-16 lg:p-28"
@@ -16,7 +16,7 @@ const HomeSpeakerShowCase = () => {
           <div className="grid w-full gap-3 mt-7 sm:inline-flex">
             <Button
               size={"lg"}
-              className="text-white bg-black border-black  hover:bg-white hover:text-black"
+              className="text-white bg-black border-black hover:bg-white hover:text-black"
             >
               SEE PRODUCT
             </Button>
@@ -27,4 +27,4 @@ const HomeSpeakerShowCase = () => {
   );
 };
 
-export default HomeSpeakerShowCase;
+export default HomeSpeaker2ShowCase;
