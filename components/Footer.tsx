@@ -10,9 +10,11 @@ const Footer = () => {
       <div className="container p-6 mx-auto">
         <div className="flex flex-col text-center md:flex-row md:justify-between md:items-center md:text-left">
           <div className="">
-            <h1 className="mb-4 text-4xl font-extrabold hover:text-orange">
-              audiostar
-            </h1>
+            <Link href="/">
+              <span className="mx-2 text-3xl font-bold hover:text-orange">
+                audiostar
+              </span>
+            </Link>
           </div>
           <div className="flex flex-col items-center md:flex-row md:space-x-6">
             {links.map((link) => (

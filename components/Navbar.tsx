@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="container flex items-center justify-between p-6 mx-auto text-white">
         <div className="flex items-center">
           <Link href="/">
-            <span className="mx-2 text-2xl font-bold hover:text-orange">
+            <span className="mx-2 text-3xl font-bold hover:text-orange">
               audiostar
             </span>
           </Link>
