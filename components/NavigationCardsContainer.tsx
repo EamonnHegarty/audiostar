@@ -4,7 +4,7 @@ import NavigationCard from "./NavigationCard";
 
 const NavigationCardsContainer = () => {
   return (
-    <div className="my-20 grid gap-10 md:grid-cols-3">
+    <div className="grid gap-10 my-20 md:grid-cols-3">
       {navigationCardsContent.map((content) => (
         <NavigationCard
           image={content.image}

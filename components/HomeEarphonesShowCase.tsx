@@ -5,9 +5,9 @@ import Image from "next/image";
 
 const HomeEarphonesShowCase = () => {
   return (
-    <div className="my-20 flex w-full items-center bg-cover bg-center text-white">
+    <div className="flex items-center w-full my-20 text-white bg-center bg-cover">
       <div className="grid w-full gap-4 md:grid-cols-2">
-        <div className="h-full w-full overflow-hidden rounded-lg">
+        <div className="w-full h-full overflow-hidden rounded-lg">
           <Image
             src={HomeEarphones}
             alt="headphones"
@@ -15,12 +15,12 @@ const HomeEarphonesShowCase = () => {
             objectFit="cover"
           />
         </div>
-        <div className="flex w-full flex-col items-center justify-center rounded-lg bg-backgroundGray p-6 md:p-0">
+        <div className="flex flex-col items-center justify-center w-full p-6 rounded-lg bg-backgroundGray md:p-0">
           <h1 className="text-4xl font-extrabold text-black">YX1 EARPHONES</h1>
-          <div className="mt-7 flex w-full justify-center">
+          <div className="flex justify-center w-full mt-7">
             <Button
               size={"lg"}
-              className="border-black bg-black text-white hover:bg-white hover:text-black"
+              className="text-white bg-black border-black hover:bg-white hover:text-black"
             >
               Get started
             </Button>
