@@ -43,16 +43,10 @@ const Footer = () => {
               Copyright 2024. All Rights Reserved
             </p>
           </div>
-          <div className="flex justify-center mt-4 space-x-4 md:mt-0">
-            <a href="#" className="text-gray-400 hover:text-white">
-              <Facebook className="text-white cursor-pointer hover:text-orange" />
-            </a>
-            <a href="#" className="text-gray-400 hover:text-white">
-              <TwitchIcon className="text-white cursor-pointer hover:text-orange" />
-            </a>
-            <a href="#" className="text-gray-400 hover:text-white">
-              <InstagramIcon className="text-white cursor-pointer hover:text-orange" />
-            </a>
+          <div className="flex justify-center text-white mt-4 space-x-4 md:mt-0">
+            <Facebook className="text-white cursor-pointer hover:text-orange" />
+            <TwitchIcon className="text-white cursor-pointer hover:text-orange" />
+            <InstagramIcon className="text-white cursor-pointer hover:text-orange" />
           </div>
         </div>
       </div>

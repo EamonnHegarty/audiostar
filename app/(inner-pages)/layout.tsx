@@ -1,10 +1,10 @@
 "use client";
-import React from "react";
+import React, { PropsWithChildren } from "react";
 import { usePathname } from "next/navigation";
 import InnerPageHeader from "@/components/InnerPageHeader";
 import NavigationCardsContainer from "@/components/NavigationCardsContainer";
 
-const Layout = () => {
+const Layout = ({ children }: PropsWithChildren) => {
   const pathname = usePathname();
   let title = "";
 
@@ -26,6 +26,7 @@ const Layout = () => {
     <>
       <InnerPageHeader title={title} />
       <div className="container">
+        {children}
         <NavigationCardsContainer />
       </div>
     </>
