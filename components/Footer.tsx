@@ -2,6 +2,7 @@ import { links } from "@/utils/links";
 import React from "react";
 import { Button } from "./ui/button";
 import Link from "next/link";
+import { Facebook, InstagramIcon, TwitchIcon } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -37,18 +38,18 @@ const Footer = () => {
               and visit our demo facility - we’re open 7 days a week.
             </p>
             <p className="my-16 text-lg text-gray-300">
-              Copyright 2021. All Rights Reserved
+              Copyright 2024. All Rights Reserved
             </p>
           </div>
           <div className="flex justify-center mt-4 space-x-4 md:mt-0">
             <a href="#" className="text-gray-400 hover:text-white">
-              <i className="fab fa-facebook-f"></i>
+              <Facebook />
             </a>
             <a href="#" className="text-gray-400 hover:text-white">
-              <i className="fab fa-twitter"></i>
+              <TwitchIcon />
             </a>
             <a href="#" className="text-gray-400 hover:text-white">
-              <i className="fab fa-instagram"></i>
+              <InstagramIcon />
             </a>
           </div>
         </div>
