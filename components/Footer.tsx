@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="flex flex-col text-center md:flex-row md:justify-between md:items-center md:text-left">
           <div className="">
             <Link href="/">
-              <span className="mx-2 text-3xl font-bold hover:text-orange">
+              <span className="text-3xl font-bold text-center md:text-left hover:text-orange">
                 audiostar
               </span>
             </Link>
@@ -45,13 +45,13 @@ const Footer = () => {
           </div>
           <div className="flex justify-center mt-4 space-x-4 md:mt-0">
             <a href="#" className="text-gray-400 hover:text-white">
-              <Facebook />
+              <Facebook className="text-white cursor-pointer hover:text-orange" />
             </a>
             <a href="#" className="text-gray-400 hover:text-white">
-              <TwitchIcon />
+              <TwitchIcon className="text-white cursor-pointer hover:text-orange" />
             </a>
             <a href="#" className="text-gray-400 hover:text-white">
-              <InstagramIcon />
+              <InstagramIcon className="text-white cursor-pointer hover:text-orange" />
             </a>
           </div>
         </div>

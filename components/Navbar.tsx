@@ -17,7 +17,7 @@ const Navbar = () => {
             </span>
           </Link>
         </div>
-        <div className="justify-center flex-1 hidden lg:flex">
+        <div className="justify-center flex-1 hidden space-x-6 lg:flex ">
           {links.map((link) => (
             <Button
               asChild
