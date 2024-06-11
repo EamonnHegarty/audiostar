@@ -1,11 +1,14 @@
-import XX99Mark2CategoryPageHeadphones from "../Assets/image-xx99-mark2-category-page-preview.jpg";
-import XX99Mark1CategoryPageHeadphones from "../Assets/image-xx99-mark1-category-page-preview.jpg";
-import XX59CategoryPageHeadphones from "../Assets/image-xx59-category-page-preview.jpg";
+import XX99Mark2HeadphonesPageHeadphones from "../Assets/image-xx99-mark2-headphones-page-preview.jpg";
+import XX99Mark1HeadphonesPageHeadphones from "../Assets/image-xx99-mark1-headphones-page-preview.jpg";
+import XX59HeadphonesPageHeadphones from "../Assets/image-xx59-headphones-page-preview.jpg";
+
+import ZX9SpeakersPageSpeakers from "../Assets/image-zx9-speakers-page-preview.jpg";
+import ZX7SpeakersPageSpeakers from "../Assets/image-zx7-speakers-page-preview.jpg";
 
 export const headphoneProducts = [
   {
     id: 1,
-    image: XX99Mark2CategoryPageHeadphones,
+    image: XX99Mark2HeadphonesPageHeadphones,
     isNewProduct: true,
     title: "XX99 Mark II Headphones",
     description:
@@ -14,7 +17,7 @@ export const headphoneProducts = [
   },
   {
     id: 2,
-    image: XX99Mark1CategoryPageHeadphones,
+    image: XX99Mark1HeadphonesPageHeadphones,
     isNewProduct: true,
     title: "XX99 Mark I Headphones",
     description:
@@ -23,11 +26,32 @@ export const headphoneProducts = [
   },
   {
     id: 3,
-    image: XX59CategoryPageHeadphones,
+    image: XX59HeadphonesPageHeadphones,
     isNewProduct: true,
     title: "XX59 Headphones",
     description:
       "Enjoy your audio almost anywhere and customize it to your specific tastes with the XX59 headphones. The stylish yet durable versatile wireless headset is a brilliant companion at home or on the move.",
     isImageFirstOnLarge: true,
+  },
+];
+
+export const speakersProducts = [
+  {
+    id: 1,
+    image: ZX9SpeakersPageSpeakers,
+    isNewProduct: true,
+    title: "ZX9 SPEAKER",
+    description:
+      "Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker system that offers truly wireless connectivity -- creating new possibilities for more pleasing and practical audio setups.",
+    isImageFirstOnLarge: true,
+  },
+  {
+    id: 1,
+    image: ZX7SpeakersPageSpeakers,
+    isNewProduct: true,
+    title: "ZX9 SPEAKER",
+    description:
+      "Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker system that offers truly wireless connectivity -- creating new possibilities for more pleasing and practical audio setups.",
+    isImageFirstOnLarge: false,
   },
 ];

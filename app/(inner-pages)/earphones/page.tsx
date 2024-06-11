@@ -1,7 +1,23 @@
+import ProductCard from "@/components/ProductCard";
+import { headphoneProducts } from "@/utils/products";
 import React from "react";
 
-const page = () => {
-  return <div>page</div>;
+const Page = () => {
+  return (
+    <div className="my-16">
+      {headphoneProducts.map((product) => (
+        <ProductCard
+          id={product.id}
+          key={product.id}
+          image={product.image}
+          isNewProduct={product.isNewProduct}
+          title={product.title}
+          description={product.description}
+          imageFirstOnLarge={product.isImageFirstOnLarge}
+        />
+      ))}
+    </div>
+  );
 };
 
-export default page;
+export default Page;
