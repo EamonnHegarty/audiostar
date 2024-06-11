@@ -1,5 +1,5 @@
 import ProductCard from "@/components/ProductCard";
-import { headphoneProducts } from "@/utils/headphoneProducts";
+import { headphoneProducts } from "@/utils/products";
 import React from "react";
 
 const Page = () => {
@@ -13,7 +13,7 @@ const Page = () => {
           isNewProduct={product.isNewProduct}
           title={product.title}
           description={product.description}
-          imageFirstOnLarge={product.isImageFirstOnLarge} // Change to 'false' to test the other direction
+          imageFirstOnLarge={product.isImageFirstOnLarge}
         />
       ))}
     </div>

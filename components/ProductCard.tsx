@@ -48,7 +48,7 @@ const ProductCard = (props: ProductCardProps) => {
               className="text-white bg-orange hover:bg-lightOrange hover:text-white"
               onClick={handleClick}
             >
-              Get started
+              SEE PRODUCT
             </Button>
           </div>
         </div>
@@ -79,7 +79,7 @@ const ProductCard = (props: ProductCardProps) => {
                   className="text-white bg-orange hover:bg-lightOrange hover:text-white"
                   onClick={handleClick}
                 >
-                  Get started
+                  SEE PRODUCT
                 </Button>
               </div>
             </div>
@@ -97,7 +97,7 @@ const ProductCard = (props: ProductCardProps) => {
                   className="text-white bg-orange hover:bg-lightOrange hover:text-white"
                   onClick={handleClick}
                 >
-                  Get started
+                  SEE PRODUCT
                 </Button>
               </div>
             </div>
