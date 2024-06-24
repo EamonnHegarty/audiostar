@@ -1,11 +1,11 @@
 import ProductCard from "@/components/ProductCard";
-import { headphoneProducts } from "@/utils/products";
+import { earphonesProducts } from "@/utils/products";
 import React from "react";
 
 const Page = () => {
   return (
     <div className="my-16">
-      {headphoneProducts.map((product) => (
+      {earphonesProducts.map((product) => (
         <ProductCard
           id={product.id}
           key={product.id}

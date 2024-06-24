@@ -5,6 +5,8 @@ import XX59HeadphonesPageHeadphones from "../Assets/image-xx59-headphones-page-p
 import ZX9SpeakersPageSpeakers from "../Assets/image-zx9-speakers-page-preview.jpg";
 import ZX7SpeakersPageSpeakers from "../Assets/image-zx7-speakers-page-preview.jpg";
 
+import YX1EarphonesPageEarphones from "../Assets/image-yx1-earphones-page-preview.jpg";
+
 export const headphoneProducts = [
   {
     id: 1,
@@ -53,5 +55,17 @@ export const speakersProducts = [
     description:
       "Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker system that offers truly wireless connectivity -- creating new possibilities for more pleasing and practical audio setups.",
     isImageFirstOnLarge: false,
+  },
+];
+
+export const earphonesProducts = [
+  {
+    id: 1,
+    image: YX1EarphonesPageEarphones,
+    isNewProduct: true,
+    title: "YX1 WIRELESS EARPHONES",
+    description:
+      "Tailor your listening experience with bespoke dynamic drivers from the new YX1 Wireless Earphones. Enjoy incredible high-fidelity sound even in noisy environments with its active noise cancellation feature.",
+    isImageFirstOnLarge: true,
   },
 ];
