@@ -14,6 +14,7 @@ const Page = () => {
           title={product.title}
           description={product.description}
           imageFirstOnLarge={product.isImageFirstOnLarge}
+          parentPage={"headphones"}
         />
       ))}
     </div>

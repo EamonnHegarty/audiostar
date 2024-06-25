@@ -13,16 +13,24 @@ type ProductCardProps = {
   title: string;
   description: string;
   imageFirstOnLarge?: boolean;
+  parentPage: string;
 };
 
 // fairly unoptimised, tech debt to improve
 const ProductCard = (props: ProductCardProps) => {
-  const { id, image, isNewProduct, title, description, imageFirstOnLarge } =
-    props;
+  const {
+    id,
+    image,
+    isNewProduct,
+    title,
+    description,
+    imageFirstOnLarge,
+    parentPage,
+  } = props;
   const router = useRouter();
 
   const handleClick = () => {
-    router.push(`/headphones/${id}`);
+    router.push(`/${parentPage}/${id}`);
   };
 
   return (
