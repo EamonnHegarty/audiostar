@@ -19,7 +19,7 @@ const Layout = ({ children }: PropsWithChildren) => {
       title = "EARPHONES";
       break;
     default:
-      title = "Page";
+      title = "";
   }
 
   return (

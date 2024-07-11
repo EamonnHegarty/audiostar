@@ -1,16 +1,15 @@
 "use client";
 
 import { useParams } from "next/navigation";
-import { headphoneProducts } from "@/utils/products";
+import { earphonesProducts } from "@/utils/products";
 import React from "react";
-import Image from "next/image";
 import ProductCard from "@/components/ProductCard";
 
 const Page = () => {
   const params = useParams();
   const { id } = params;
 
-  const product = headphoneProducts.find((p) => p.id.toString() === id);
+  const product = earphonesProducts.find((p) => p.id.toString() === id);
 
   if (!product) {
     return <div>Product not found</div>;
@@ -25,7 +24,7 @@ const Page = () => {
       title={product.title}
       description={product.description}
       imageFirstOnLarge={product.isImageFirstOnLarge}
-      parentPage={"headphones"}
+      parentPage={"earphones"}
     />
   );
 };
